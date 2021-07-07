@@ -1,0 +1,24 @@
+.contactImage{
+    height: 55vh;
+    width: 100vw;
+}
+.contact__content{
+    margin-left: 10vw;
+    max-width: 40%;
+}
+.form{
+    display: flex;
+    margin-top: 5vh;
+}
+.contact__form{
+    margin-left: 10vh;
+    margin-bottom: 5vh;
+}
+.checkbox{
+    margin-top: 2vh;
+}
+.submit__btn{
+    width: 5vw;
+    height: 5vh;
+    border-radius: 8px;
+}
