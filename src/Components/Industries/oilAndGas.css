@@ -1,0 +1,17 @@
+.mainImage{
+    height: 55vh;
+    width: 100vw;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10vw;
+    margin-top: 10vh;
+    margin-right: 20vh;
+}
+.benefits{
+    margin-top: 3vh;
+}
+.benefits > h6{
+    font-weight: 800;
+}
