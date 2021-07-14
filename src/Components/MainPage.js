@@ -3,7 +3,7 @@ import Navbar from './Navbar'
 import CarouselContainer from './carouselContainer'
 import Contact from './Contact'
 import HeroSection from './HeroSection'
-import oilAndGas  from './Industries/oilAndGas'
+import OilAndGas  from './Industries/oilAndGas'
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
 
 function MainPage() {
@@ -11,29 +11,24 @@ function MainPage() {
         <Router>
         <div>
             <Navbar />
-            {/* <HeroSection /> */}
-            {/* <CarouselContainer /> */}
-            {/* <Contact /> */}
-            {/* <OilAndGas /> */}
-
-            {/* switch and routing */}
             <Switch>
-                    <Route path="/" exact>
-                        <HeroSection />
-                        <CarouselContainer />
-                    </Route>
-                    <Route path="/contact" exact>
-                        <Contact />
-                    </Route>
-                    <Route path="/industries" exact>
-                        <oilAndGas />
-                    </Route>
-                    
-                </Switch>
-
-            
+                    <Route path="/" exact component={merged} />
+                    <Route path="/contact"  component ={Contact} />
+                    <Route path="/services"  component ={Contact} />
+                    <Route path="/industries"  component={OilAndGas} />
+                    <Route path="/aboutus"  component={OilAndGas} />
+            </Switch>
         </div>
         </Router>
+    )
+}
+
+function merged(){
+    return(
+        <>
+            <CarouselContainer/>
+            <HeroSection />
+        </>
     )
 }
 

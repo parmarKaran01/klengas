@@ -1,0 +1,18 @@
+KlenGas
+
+Merged 2 pull requests from Karan
+Static pages created, Contact form created(form handling pending), Main page created with carousel.
+
+
+Major Update #1
+- [ ] Fixed Herosection and carousel into one component called ”merged” and added it to the Switch Router
+- [ ] Fixed Link in Navbar (Shouldn’t import it as 
+import {BrowserRouter as Router, Switch, Link, Route} from 'react-router-dom'
+Instead, import {Link} from 'react-router-dom’; )
+- [ ] Tested routing of the pages,
+
+Bug : Navbar Component breaks in responsive mode, css fix required.
+
+
+
+
