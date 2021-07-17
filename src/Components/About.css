@@ -1,0 +1,19 @@
+.banner__image{
+    height: 55vh;
+    width: 100vw;
+}
+.list{
+    margin-left: 4vw;
+}
+.list2{
+    margin-left: 4vw;
+    margin-bottom: 5vh;
+    font-weight: 800;
+}
+.paragraph {
+    margin-top: 3vh;
+    margin-bottom: 5vh;
+}
+.paragraph >h5{
+    font-weight: 700;
+}
