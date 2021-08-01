@@ -6,6 +6,7 @@ import HeroSection from './HeroSection'
 import OilAndGas  from './Industries/oilAndGas'
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
 import About from './About'
+import Footer from './Footer'
 
 function MainPage() {
     return (
@@ -19,6 +20,7 @@ function MainPage() {
                     <Route path="/industries"  component={OilAndGas} />
                     <Route path="/aboutus"  component={About} />
             </Switch>
+            <Footer />
         </div>
         </Router>
     )
