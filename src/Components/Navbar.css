@@ -33,12 +33,21 @@
     width: 50%;
     justify-content: flex-end;
     margin-right: 15px;
-
 }
 
-.navbar .navbar__rightside .links a{
+
+.navbar .navbar__rightside .links{
+    display: flex;
     padding-left: 15px ;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+.navbar .navbar__rightside .links a{
+     display: flex;
+     padding-left: 15px ;
      font-size: 20px;
+     margin-top: 1vh;
      text-decoration: none;
      color: black;
 }
@@ -93,7 +102,7 @@
         height: 30vh;
         width: 100%;
         margin-bottom: 10px;
-        background-color:black ;
+        background-color:white ;
         display: flex;
         flex-direction: column;
         align-items: center;

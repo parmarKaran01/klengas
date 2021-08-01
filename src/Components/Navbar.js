@@ -3,10 +3,8 @@ import "./Navbar.css";
 import StoreIcon from "@material-ui/icons/Store";
 import { Link } from "react-router-dom";
 import MenuIcon from "@material-ui/icons/Menu";
-import Subcomponent from "./Subcomponent";
-
+import Menu from './Menu'
 function Navbar() {
-  const [ open, setOpen] = useState(false);
   const [showlinks, setShowlinks] = useState(false);
   return (
     <div className="navbar">
@@ -21,18 +19,16 @@ function Navbar() {
             <a>Home</a>
           </Link>
           <Link to="/industries">
-            <a onClick={() => setOpen(!open)}>Industries
-              {open ? <Subcomponent /> : ""}
-            </a>
+              <Menu name = 'Industries' option1="Industries" option2="Oil And Gas" option3="Pharma" option4="Food and Beverages"/>
           </Link>
           <Link to="/services">
-            <a>Services</a>
+            <Menu name = 'Products' option1="Oil And Gas" option2="Pharma" option3="Food and Beverages"/>
           </Link>
           <Link to="/aboutus">
             <a>About Us</a>
           </Link>
           <Link to="/contact">
-            <a>Contact</a>
+            <a>Contact Us</a>
           </Link>
         </div>
         <button className="btn" onClick={() => setShowlinks(!showlinks)}>
