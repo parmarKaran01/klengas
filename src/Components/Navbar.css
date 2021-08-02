@@ -116,3 +116,12 @@
     max-width: 5vw;
     height: 5vh;
 }
+
+.menu__button{
+    border: none;
+    text-decoration: none;
+    outline: none;
+    background-color: white;
+    text-align: center;
+    margin-top: 7.5px;
+}

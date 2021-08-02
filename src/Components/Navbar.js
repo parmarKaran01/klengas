@@ -3,7 +3,16 @@ import "./Navbar.css";
 import StoreIcon from "@material-ui/icons/Store";
 import { Link } from "react-router-dom";
 import MenuIcon from "@material-ui/icons/Menu";
-import Menu from './Menu'
+// import Menu from './Menu'
+
+//test karan
+import {
+  Menu,
+  MenuItem,
+  MenuButton
+} from '@szhsin/react-menu';
+import '@szhsin/react-menu/dist/index.css'
+//
 function Navbar() {
   const [showlinks, setShowlinks] = useState(false);
   return (
@@ -18,11 +27,39 @@ function Navbar() {
           <Link to="/">
             <a>Home</a>
           </Link>
-          <Link to="/industries">
-              <Menu name = 'Industries' option1="Industries" option2="Oil And Gas" option3="Pharma" option4="Food and Beverages"/>
+          <Link >
+              {/* <Menu name = 'Industries' option1="Industries" option2="Oil And Gas" option3="Pharma" option4="Food and Beverages"/> */}
+              <Menu menuButton={<MenuButton className="menu__button">Industries</MenuButton>}>
+                  <MenuItem>
+                    <Link to="/industries">Industries</Link>
+                  </MenuItem>
+                  <MenuItem>
+                    <Link to="/oilandgas">Oil And Gas</Link>
+                  </MenuItem>
+                  <MenuItem> 
+                    <Link to="/pharma">pharma</Link>
+                  </MenuItem>
+                  <MenuItem> 
+                    <Link to="/foodandbeverages">Food and Beverages</Link>
+                  </MenuItem>
+              </Menu>
           </Link>
-          <Link to="/services">
-            <Menu name = 'Products' option1="Oil And Gas" option2="Pharma" option3="Food and Beverages"/>
+          <Link >
+            {/* <Menu name = 'Products' option1="Oil And Gas" option2="Pharma" option3="Food and Beverages"/> */}
+            <Menu menuButton={<MenuButton className="menu__button">Products</MenuButton>}>
+                  <MenuItem>
+                    <Link to="/services">services</Link>
+                  </MenuItem>
+                  <MenuItem>
+                    <Link to="/oilandgas">Oil And Gas</Link>
+                  </MenuItem>
+                  <MenuItem>
+                    <Link to="/pharma">pharma</Link>
+                  </MenuItem>
+                  <MenuItem>
+                    <Link to="/foodandbeverages">Food and Beverages</Link>
+                  </MenuItem>
+              </Menu>
           </Link>
           <Link to="/aboutus">
             <a>About Us</a>
