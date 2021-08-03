@@ -1,3 +1,7 @@
+/* .contact{
+    display: flex;
+    flex-direction: column;
+} */
 .contactImage{
     height: 55vh;
     width: 100vw;
