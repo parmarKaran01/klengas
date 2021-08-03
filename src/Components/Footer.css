@@ -5,7 +5,7 @@
     text-align: center;
 }
 
-.footer >p{
+.footer >span{
     padding: 5px;
     cursor: pointer;
     font-size: 14px;

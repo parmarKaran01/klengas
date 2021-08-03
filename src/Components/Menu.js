@@ -15,9 +15,9 @@ export default function SimpleMenu({name,option1,option2,option3}) {
   };
 
   return (
-    <div>
+    <div onClick={handleClose}>
       <Button aria-controls="simple-menu" style={{fontFamily:" -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen','Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue','sans-serif';", fontWeight:"400", fontSize:"20px", textTransform:"capitalize"}}
-      aria-haspopup="true" onMouseEnter={handleClick} onClick={handleClick}>
+      aria-haspopup="true" onMouseOver={handleClick} onClick={handleClick}>
         {name}
       </Button>
       <Menu
