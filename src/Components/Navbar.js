@@ -29,6 +29,7 @@ function Navbar() {
           </Link>
           <Link >
               {/* <Menu name = 'Industries' option1="Industries" option2="Oil And Gas" option3="Pharma" option4="Food and Beverages"/> */}
+              <a>
               <Menu menuButton={<MenuButton className="menu__button">Industries</MenuButton>}>
                   <MenuItem>
                     <Link to="/industries">Industries</Link>
@@ -43,8 +44,10 @@ function Navbar() {
                     <Link to="/foodandbeverages">Food and Beverages</Link>
                   </MenuItem>
               </Menu>
+              </a>
           </Link>
           <Link >
+          <a>
             {/* <Menu name = 'Products' option1="Oil And Gas" option2="Pharma" option3="Food and Beverages"/> */}
             <Menu menuButton={<MenuButton className="menu__button">Products</MenuButton>}>
                   <MenuItem>
@@ -60,6 +63,7 @@ function Navbar() {
                     <Link to="/foodandbeverages">Food and Beverages</Link>
                   </MenuItem>
               </Menu>
+              </a>
           </Link>
           <Link to="/aboutus">
             <a>About Us</a>
