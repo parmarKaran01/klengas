@@ -37,10 +37,19 @@ function Navbar() {
                     <Link to="/oilandgas">Oil And Gas</Link>
                   </MenuItem>
                   <MenuItem> 
-                    <Link to="/pharma">pharma</Link>
+                    <Link to="/pharmaceuticals">Pharmaceuticals</Link>
                   </MenuItem>
                   <MenuItem> 
                     <Link to="/foodandbeverages">Food and Beverages</Link>
+                  </MenuItem>
+                  <MenuItem> 
+                    <Link to="/chemicals">Chemicals</Link>
+                  </MenuItem>
+                  <MenuItem> 
+                    <Link to="/waterprocessing">Water Processing</Link>
+                  </MenuItem>
+                  <MenuItem> 
+                    <Link to="/powergeneration">Power Generation</Link>
                   </MenuItem>
               </Menu>
           </Link>
