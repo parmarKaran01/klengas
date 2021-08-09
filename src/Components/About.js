@@ -1,6 +1,7 @@
 import React from "react";
 import image from "../assets/images/about.png";
 import "./About.css";
+// import Card from "./Card";
 function About() {
   return (
     <div className="about">
@@ -23,18 +24,18 @@ function About() {
           We are serving across the industries. Just to illustrate few examples:
         </p>
         <ol className="list">
-          <li>Petroleum Refineries & Petrochemical Industries</li>
-          <li>Oil & Gas Processing Plants</li>
-          <li>Biopharmaceuticals industries</li>
-          <li>API manufacturing industries</li>
-          <li>Generics and Formulations</li>
-          <li>Chemical industries</li>
-          <li>Food & Beverage Industries</li>
-          <li>Digital Ink Manufacturing</li>
-          <li>Automotive Industries</li>
-          <li>Electronics Manufacturing plants</li>
-          <li>Power Generation Plants</li>
-          <li>Water Processing</li>
+          {/* <Card title={"Petroleum Refineries & Petrochemical Industries"}/>
+          <Card title={"Oil & Gas Processing Plants"}/>
+          <Card title={"Biopharmaceuticals industries"}/>
+          <Card title={"API manufacturing industries"}/>
+          <Card title={"Generics and Formulations"}/>
+          <Card title={"Chemical industries"}/>
+          <Card title={"Food & Beverage Industries"}/>
+          <Card title={"Digital Ink Manufacturing"}/>
+          <Card title={"Automotive Industries"}/>
+          <Card title={"Electronics Manufacturing plants"}/>
+          <Card title={"Power Generation Plants"}/>
+          <Card title={"Water Processing"}/> */}
         </ol>
         <p>We are engaged in following services:</p>
         <ol className="list2">

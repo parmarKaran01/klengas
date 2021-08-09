@@ -15,3 +15,16 @@
 .benefits > h6{
     font-weight: 800;
 }
+.oil__and__gas{
+    background-color: rgb(226, 225, 225);
+}
+.applications{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10vw;
+    margin-top: 10vh;
+    margin-right: 20vh;
+}
+.blue{
+    background-image: linear-gradient(rgb(226, 225, 225) 10%, rgb(126, 219, 255));;
+}

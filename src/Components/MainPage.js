@@ -12,6 +12,7 @@ import FoodAndBeverages from './Industries/FoodAndBeverages'
 import Chemicals from "./Industries/Chemicals"
 import PowerGeneration from './Industries/PowerGeneration'
 import WaterProcessing from './Industries/WaterProcessing'
+import oilAndGas from './Industries/oilAndGas'
 
 function MainPage() {
     return (
@@ -25,6 +26,7 @@ function MainPage() {
                     <Route path="/industries"  component={OilAndGas} />
                     <Route path="/aboutus"  component={About} />
 
+                    <Route path="/oilandgas"  component={oilAndGas} />
                     <Route path="/pharmaceuticals"  component={Pharmaceuticals} />
                     <Route path="/foodandbeverages"  component={FoodAndBeverages} />
                     <Route path="/chemicals"  component={Chemicals} />

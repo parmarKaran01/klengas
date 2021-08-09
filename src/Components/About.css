@@ -4,6 +4,7 @@
 }
 .list{
     margin-left: 4vw;
+    display: flex;
 }
 .list2{
     margin-left: 4vw;
