@@ -12,6 +12,12 @@ import FoodAndBeverages from './Industries/FoodAndBeverages'
 import Chemicals from "./Industries/Chemicals"
 import PowerGeneration from './Industries/PowerGeneration'
 import WaterProcessing from './Industries/WaterProcessing'
+import BagFilter from './Products/BagFilter'
+import Coalescers from './Products/Coalescers'
+import DepthFilter from './Products/DepthFilter'
+import LargeDiameterFilter from './Products/LargeDiameterFilter'
+import MetalFilter from './Products/MetalFilter'
+import PleatedFilters from './Products/PleatedFilters'
 
 function MainPage() {
     return (
@@ -25,11 +31,20 @@ function MainPage() {
                     <Route path="/industries"  component={OilAndGas} />
                     <Route path="/aboutus"  component={About} />
 
+                    {/* industries */}
                     <Route path="/pharmaceuticals"  component={Pharmaceuticals} />
                     <Route path="/foodandbeverages"  component={FoodAndBeverages} />
                     <Route path="/chemicals"  component={Chemicals} />
                     <Route path="/powergeneration"  component={PowerGeneration} />
                     <Route path="/waterprocessing"  component={WaterProcessing} />
+
+                    {/* products */}
+                    <Route path="/bagfilters"  component={BagFilter} />
+                    <Route path="/depthfilters"  component={DepthFilter} />
+                    <Route path="/largediameterfilters"  component={LargeDiameterFilter} />
+                    <Route path="/metalfilters"  component={MetalFilter} />
+                    <Route path="/pleatedfilters"  component={PleatedFilters} />
+                    <Route path="/coalescers"  component={Coalescers} />
 
             </Switch>
             <Footer />
