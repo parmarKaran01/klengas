@@ -51,6 +51,14 @@
      text-decoration: none;
      color: black;
 }
+.navbar .navbar__rightside .links .menu__button{
+    display: flex;
+    padding-left: 15px ;
+    font-size: 20px;
+    margin-top: 1vh;
+    text-decoration: none;
+    color: black;
+}
 
 .navbar__rightside .btn{
     display: none;
@@ -60,21 +68,23 @@
     display: flex;
 }
 
+@media only screen and (max-width :1350px){
+    .navbar .navbar__rightside .links a{
+        font-size: 17px;
+        padding-left: 10px;
+    }
+    .navbar .navbar__rightside .links .menu__button{
+        font-size: 17px;
+        padding-left: 10px;
+    }
+
+}
+
+
+
+
+
 @media only screen and (max-width :1100px){
-    .navbar .navbar__rightside .links a{
-        font-size: 18px;
-    }
-
-}
-
-@media only screen and (max-width :1000x){
-    .navbar .navbar__rightside .links a{
-        font-size: 13px;
-    }
-
-}
-
-@media only screen and (max-width :980px){
     .navbar .navbar__rightside .links{
         display: none;
     }
@@ -99,7 +109,7 @@
         z-index: 100;
         left: 0px;
         top: 80px;
-        height: 30vh;
+        height: 40vh;
         width: 100%;
         margin-bottom: 10px;
         background-color:white ;
@@ -107,7 +117,7 @@
         flex-direction: column;
         align-items: center;
         justify-content: space-around;
-        max-height: 30vh;
+        max-height: 40vh;
         font-size: 10px;
 
     }
@@ -122,6 +132,5 @@
     text-decoration: none;
     outline: none;
     background-color: white;
-    text-align: center;
-    margin-top: 7.5px;
+    padding: 0;
 }

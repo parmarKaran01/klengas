@@ -26,6 +26,11 @@ function Navbar() {
         <div className="links" id={showlinks ? "hidden" : ""}>
           <Link to="/">
             <a>Home</a>
+            
+          </Link>
+          <Link to="/aboutus">
+            <a>About Us</a>
+            
           </Link>
           <Link >
               {/* <Menu name = 'Industries' option1="Industries" option2="Oil And Gas" option3="Pharma" option4="Food and Beverages"/> */}
@@ -60,25 +65,30 @@ function Navbar() {
             {/* <Menu name = 'Products' option1="Oil And Gas" option2="Pharma" option3="Food and Beverages"/> */}
             <Menu menuButton={<MenuButton className="menu__button">Products</MenuButton>}>
                   <MenuItem>
-                    <Link to="/services">services</Link>
+                    <Link to="/bagfilters">Bag Filters</Link>
                   </MenuItem>
                   <MenuItem>
-                    <Link to="/oilandgas">Oil And Gas</Link>
+                    <Link to="/depthfilters">Depth Filters</Link>
                   </MenuItem>
                   <MenuItem>
-                    <Link to="/pharma">pharma</Link>
+                    <Link to="/largediameterfilters">Large Diameter Filters</Link>
                   </MenuItem>
                   <MenuItem>
-                    <Link to="/foodandbeverages">Food and Beverages</Link>
+                    <Link to="/metalfilters">Metal Filters</Link>
+                  </MenuItem>
+                  <MenuItem>
+                    <Link to="/pleatedfilters">Pleated Filters</Link>
                   </MenuItem>
               </Menu>
               </a>
           </Link>
-          <Link to="/aboutus">
-            <a>About Us</a>
+          <Link to="/clients">
+            <a>Clients</a>
+
           </Link>
           <Link to="/contact">
             <a>Contact Us</a>
+
           </Link>
         </div>
         <button className="btn" onClick={() => setShowlinks(!showlinks)}>
