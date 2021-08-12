@@ -1,25 +1,28 @@
 import React, { useState } from "react";
 import "./Navbar.css";
-import StoreIcon from "@material-ui/icons/Store";
+// import StoreIcon from "@material-ui/icons/Store";
 import { Link } from "react-router-dom";
 import MenuIcon from "@material-ui/icons/Menu";
 // import Menu from './Menu'
+import KlengasLogo from '../assets/images/KlengasLogo.png'
 
 //test karan
 import {
   Menu,
   MenuItem,
-  MenuButton
+  MenuButton,
 } from '@szhsin/react-menu';
 import '@szhsin/react-menu/dist/index.css'
+
 //
 function Navbar() {
   const [showlinks, setShowlinks] = useState(false);
   return (
     <div className="navbar">
       <div className="navbar__leftside">
-        <StoreIcon className="store__logo" />
-        <h3>KLENGAS</h3>
+        {/* <StoreIcon className="store__logo" />
+        <h3>KLENGAS</h3> */}
+        <img src={KlengasLogo} alt="" className="store__logo"  width="275" height="275"/>
       </div>
 
       <div className="navbar__rightside">
@@ -34,13 +37,14 @@ function Navbar() {
           </Link>
           <Link >
               {/* <Menu name = 'Industries' option1="Industries" option2="Oil And Gas" option3="Pharma" option4="Food and Beverages"/> */}
-              <a>
+              
               <Menu menuButton={<MenuButton className="menu__button">Industries</MenuButton>}>
-                  <MenuItem>
+ 
+                  <MenuItem> 
                     <Link to="/industries">Industries</Link>
-                  </MenuItem>
-                  <MenuItem>
-                    <Link to="/oilandgas">Oil And Gas</Link>
+                  </MenuItem> 
+                  <MenuItem> 
+                    <Link to="/oilandgas">Oil and Gas</Link>
                   </MenuItem>
                   <MenuItem> 
                     <Link to="/pharmaceuticals">Pharmaceuticals</Link>
@@ -58,10 +62,9 @@ function Navbar() {
                     <Link to="/powergeneration">Power Generation</Link>
                   </MenuItem>
               </Menu>
-              </a>
           </Link>
           <Link >
-          <a>
+          
             {/* <Menu name = 'Products' option1="Oil And Gas" option2="Pharma" option3="Food and Beverages"/> */}
             <Menu menuButton={<MenuButton className="menu__button">Products</MenuButton>}>
                   <MenuItem>
@@ -80,7 +83,6 @@ function Navbar() {
                     <Link to="/pleatedfilters">Pleated Filters</Link>
                   </MenuItem>
               </Menu>
-              </a>
           </Link>
           <Link to="/clients">
             <a>Clients</a>
