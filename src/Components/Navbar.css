@@ -9,19 +9,21 @@
 .navbar__leftside{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: flex-start;
     align-items: center;
     padding-left: 10px;
     color: black;
 
 }
 
-.navbar__leftside > h3{
-    margin-left: 10px;
-}
 
-.store__logo{
-    transform: scale(1.5);
+
+.navbar__leftside .store__logo{
+    max-height: 13vh;
+    max-width: 13vw;
+    object-fit: contain;
+    margin-left: 6vw;
+    padding-left: 0;
 }
 
 
@@ -93,8 +95,8 @@
         display: flex;
         border: none;
         color: white;
-        background: rgb(44, 44, 44) ;
-        height: 30px;
+        background: rgb(0,135,193) ;
+        height: 40px;
         width: 50px;
         align-items: center;
         justify-content: center;
@@ -111,7 +113,7 @@
         top: 80px;
         height: 40vh;
         width: 100%;
-        margin-bottom: 10px;
+        margin-bottom: 8px;
         background-color:white ;
         display: flex;
         flex-direction: column;
@@ -120,6 +122,12 @@
         max-height: 40vh;
         font-size: 10px;
 
+    }
+
+    .navbar__leftside .store__logo{
+        max-height: 100px;
+        max-width: 100px;
+        margin-left: 5px;
     }
 }
 .logo{

@@ -2,7 +2,7 @@ import React from 'react'
 import Form from './Form'
 import image1 from './../assets/images/contactImage.png';
 import './Contact.css'
-import Map from "./Map"
+// import Map from "./Map"
 
 function Contact() {
     return (
@@ -12,7 +12,7 @@ function Contact() {
                 <div className="contact__content"> 
                     <h2>Get in Touch</h2>
                     <p> some content</p>
-                    <Map />
+                    {/* <Map /> */}
                 </div>
                 <div className='contact__form'> 
                     <Form />
