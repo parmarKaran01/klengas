@@ -22,7 +22,9 @@ function Navbar() {
       <div className="navbar__leftside">
         {/* <StoreIcon className="store__logo" />
         <h3>KLENGAS</h3> */}
-        <img src={KlengasLogo} alt="" className="store__logo"  width="275" height="275"/>
+        <Link to="/">
+          <img src={KlengasLogo} alt="" className="store__logo"  width="275" height="275"/>
+        </Link>
       </div>
 
       <div className="navbar__rightside">

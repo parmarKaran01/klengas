@@ -20,7 +20,8 @@
 
 .navbar__leftside .store__logo{
     max-height: 13vh;
-    max-width: 13vw;
+    max-width: 16vw;
+    cursor: pointer;
     object-fit: contain;
     margin-left: 6vw;
     padding-left: 0;
