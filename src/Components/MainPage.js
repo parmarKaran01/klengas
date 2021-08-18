@@ -19,6 +19,7 @@ import LargeDiameterFilter from './Products/LargeDiameterFilter'
 import MetalFilter from './Products/MetalFilter'
 import PleatedFilters from './Products/PleatedFilters'
 import Industries from './Industries/Industries'
+import Clients from '../Clients/Clients'
 
 function MainPage() {
     return (
@@ -31,6 +32,7 @@ function MainPage() {
                     <Route path="/services"  component ={Contact} />
                     <Route path="/industries"  component={Industries} />
                     <Route path="/aboutus"  component={About} />
+                    <Route path="/clients"  component={Clients} />
 
                     {/* industries */}
                     <Route path="/pharmaceuticals"  component={Pharmaceuticals} />

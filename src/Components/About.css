@@ -3,7 +3,7 @@
     width: 100vw;
 }
 .list{
-    /* display: flex; */
+    display: flex;
     margin-left: 0px;
 }
 .list2{
@@ -39,5 +39,6 @@ button{
 .sub__section{
     /* width: 20vw; */
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
 }

@@ -48,6 +48,14 @@ this is the css that was causing problem in the navbar
     text-decoration: none;
     font-weight: bold;
 } */
+img {
+    vertical-align: middle;
+    border-style: none;
+    object-fit: contain;
+    height: 100%;
+    width: 20vw;
+    margin-right: 20px;
+    }
 .card__image{
     object-fit: contain;
     height: 100%;
