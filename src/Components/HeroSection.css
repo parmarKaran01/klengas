@@ -8,18 +8,29 @@
 }
 
 .hero__images{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    /* grid-template-rows: 1fr 1fr; */
-    gap: 3px;
+    display: flex;
+    
 }
-
 /* .images{
     height: 300px;
     width: 300px;
 } */
-
-
+.featured__section{
+    display: flex;
+    background-color: rgb(228, 228, 228);
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    justify-content: center;
+}
+.featured__heading{
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+}
+.video{
+    margin-left: 3vh;
+    margin-right: 3vh;
+}
 
 @media only screen and (max-width:900px) {
 

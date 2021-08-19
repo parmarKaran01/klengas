@@ -10,7 +10,7 @@ function Footer() {
       <p>© 2021 Klengas Tech LLP . All Rights Reserved</p>
       <div className="handles">
         <a href="https://www.facebook.com/pages/category/Gas---Chemical-Service/Klengas-Tech-LLP-1689560071367498/">
-          <FacebookIcon className="socialmedia__handles" />
+          <FacebookIcon className="socialmedia__handles fb" />
         </a>
         <a href="https://www.youtube.com/user/maku2575">
           <YouTubeIcon className="socialmedia__handles yt" />
@@ -19,7 +19,7 @@ function Footer() {
           <LinkedInIcon className="socialmedia__handles li" />
         </a>
         <a href="https://twitter.com/klengas">
-          <TwitterIcon className="socialmedia__handles" />
+          <TwitterIcon className="socialmedia__handles tw" />
         </a>
       </div>
     </div>
