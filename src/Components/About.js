@@ -26,21 +26,7 @@ function About() {
         <div className="list">
           <div className="sub__section">
             <div className="btn">
-              <button>Petroleum Refineries & Industries</button>
-            </div>
-            <div className="btn">
-              <button>Generics and Formulations</button>
-            </div>
-            <div className="btn">
-              <button>Biopharmaceuticals industries</button>
-            </div>
-          </div>
-          <div className="sub__section">
-            <div className="btn">
-              <button>Oil & Gas Processing Plants</button>
-            </div>
-            <div className="btn">
-              <button>Chemical Industries</button>
+              <button>Oil And Gas Processing Plants</button>
             </div>
             <div className="btn">
               <button>Food & Beverage Industries</button>
@@ -48,24 +34,18 @@ function About() {
           </div>
           <div className="sub__section">
             <div className="btn">
-              <button>Automotive Industries</button>
-            </div>
-            <div className="btn">
-              <button>Electronics Manufacturing plants</button>
-            </div>
-            <div className="btn">
               <button>Power Generation Plants</button>
+            </div>
+            <div className="btn">
+              <button>Chemical Industries</button>
             </div>
           </div>
           <div className="sub__section">
-            <div className="btn">
+          <div className="btn">
               <button>Water Processing</button>
             </div>
             <div className="btn">
-              <button>Digital Ink Manufacturing</button>
-            </div>
-            <div className="btn">
-              <button>API manufacturing industries</button>
+              <button>Biopharmaceuticals Industries</button>
             </div>
           </div>
         </div>

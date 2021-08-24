@@ -38,9 +38,14 @@
         display: flex;
         flex-direction: column;
     }
-    .hero__images .images{
-        object-fit: contain;
-        margin-top: 8px;
+    .hero__card{
+        width: 100%;
+    }
+    .featured__section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center ;
+        align-items: center;
     }
 
     

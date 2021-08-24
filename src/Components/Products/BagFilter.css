@@ -1,0 +1,21 @@
+.product__details{
+    margin-top: 10vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.product__image{
+    object-fit: contain;
+    margin-bottom: 5vh;
+}
+.product__catalogue{
+    cursor: pointer;
+    margin-bottom: 5vh;
+}
+.product__content{
+    margin-top: 2vh;
+    align-items: baseline;
+    margin-left: 13%;
+    margin-right: 13%;
+}

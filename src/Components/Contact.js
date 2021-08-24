@@ -42,14 +42,7 @@ Thane - 421201, Maharashtra
         </div>
         <div className="contact__form">
           <Form />
-          <input type="checkbox" />
-          <span className="checkbox">
-            {" "}
-            I accept that the data submitted will be used to contact me for the
-            business intended. I understand and agree to the PRIVACY POLICY
-          </span>
           <p></p>
-          <button className="submit__btn">SUBMIT</button>
         </div>
       </div>
     </div>

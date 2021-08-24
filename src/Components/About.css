@@ -5,6 +5,7 @@
 .list{
     display: flex;
     margin-left: 0px;
+    justify-content: center;
 }
 .list2{
     margin-left: 4vw;
