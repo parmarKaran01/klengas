@@ -37,6 +37,8 @@ Thane - 421201, Maharashtra
             </p>
             <p style={{fontWeight:"600"}}>Support Email : </p>
             <p>solutions@klengas.com </p>
+            <p style={{fontWeight:"600"}}>Contact No: </p>
+            <p>+91 9166593315</p>
           </div>
           {/* <Map /> */}
         </div>
