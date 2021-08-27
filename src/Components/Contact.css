@@ -5,6 +5,7 @@
 .contactImage{
     height: 55vh;
     width: 100vw;
+    object-fit: cover;
 }
 .contact__content{
     margin-left: 10vw;
@@ -20,9 +21,14 @@
 }
 .checkbox{
     margin-top: 2vh;
+    cursor: pointer;
 }
 .submit__btn{
-    width: 5vw;
+    width: 6vw;
     height: 5vh;
+    background-color: rgb(170, 169, 169);
     border-radius: 8px;
+}
+.submit__btn:hover{
+    background-color: lightblue;
 }

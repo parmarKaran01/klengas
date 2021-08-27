@@ -12,15 +12,15 @@ function Form() {
     return (
         <div className='main'>
 
-            <h6>Full Name:</h6>
+            <h6>Full Name: *</h6>
             <input type='text' className='input'></input>
-            <h6>Email Address:</h6>
+            <h6>Email Address: *</h6>
             <input type='text' className='input'></input>
-            <h6>Phone Number:</h6>
+            <h6>Phone Number: *</h6>
             <input type='text' className='input'></input>
-            <h6>Company Name:</h6>
+            <h6>Company Name: *</h6>
             <input type='text' className='input'></input>
-            <h6>Industry:</h6>
+            <h6>Industry: *</h6>
             <select className='selector' onChange={(e) => handler(e.target.value)} >
                 <option value='Oil and Gas'>Oil and Gas</option>
                 <option value='Chemical'>Chemical</option>
@@ -31,9 +31,9 @@ function Form() {
                 <option value='other'>Others</option>
             </select>
             {other ? <input type='text' className='input' placeholder='Other'></input> : ""}
-            <h6>Country:</h6>
+            <h6>Country: *</h6>
             <input type='text' className='input'></input>
-            <h6>What can we help you with today?</h6>
+            <h6>What can we help you with today? *</h6>
             <input type='text' className='input'></input>
 
         </div>

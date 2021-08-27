@@ -1,5 +1,5 @@
 import React from "react";
-import image from "../assets/images/about.png";
+import image from "../assets/images/AboutUs.PNG";
 import "./About.css";
 // import Card from "./Card";
 function About() {
@@ -23,20 +23,52 @@ function About() {
         <p>
           We are serving across the industries. Just to illustrate few examples:
         </p>
-        <ol className="list">
-          {/* <Card title={"Petroleum Refineries & Petrochemical Industries"}/>
-          <Card title={"Oil & Gas Processing Plants"}/>
-          <Card title={"Biopharmaceuticals industries"}/>
-          <Card title={"API manufacturing industries"}/>
-          <Card title={"Generics and Formulations"}/>
-          <Card title={"Chemical industries"}/>
-          <Card title={"Food & Beverage Industries"}/>
-          <Card title={"Digital Ink Manufacturing"}/>
-          <Card title={"Automotive Industries"}/>
-          <Card title={"Electronics Manufacturing plants"}/>
-          <Card title={"Power Generation Plants"}/>
-          <Card title={"Water Processing"}/> */}
-        </ol>
+        <div className="list">
+          <div className="sub__section">
+            <div className="btn">
+              <button>Petroleum Refineries & Industries</button>
+            </div>
+            <div className="btn">
+              <button>Generics and Formulations</button>
+            </div>
+            <div className="btn">
+              <button>Biopharmaceuticals industries</button>
+            </div>
+          </div>
+          <div className="sub__section">
+            <div className="btn">
+              <button>Oil & Gas Processing Plants</button>
+            </div>
+            <div className="btn">
+              <button>Chemical Industries</button>
+            </div>
+            <div className="btn">
+              <button>Food & Beverage Industries</button>
+            </div>
+          </div>
+          <div className="sub__section">
+            <div className="btn">
+              <button>Automotive Industries</button>
+            </div>
+            <div className="btn">
+              <button>Electronics Manufacturing plants</button>
+            </div>
+            <div className="btn">
+              <button>Power Generation Plants</button>
+            </div>
+          </div>
+          <div className="sub__section">
+            <div className="btn">
+              <button>Water Processing</button>
+            </div>
+            <div className="btn">
+              <button>Digital Ink Manufacturing</button>
+            </div>
+            <div className="btn">
+              <button>API manufacturing industries</button>
+            </div>
+          </div>
+        </div>
         <p>We are engaged in following services:</p>
         <ol className="list2">
           <li>
@@ -134,23 +166,21 @@ function About() {
             operations costs.
           </p>
         </div>
-      <h4>To summarize the benefits to customers:</h4>
-      <ol className='list2'>
+        <h4>To summarize the benefits to customers:</h4>
+        <ol className="list2">
           <li>Improved Product Quality</li>
           <li>Less rework or process time</li>
           <li>Reduced Maintenance costs</li>
           <li>Reduced Operational costs</li>
           <li>Low Break down maintenances</li>
-          <li>Prolonged Operation of the plants / Long intervals between Planned Shut downs</li>
-      </ol>
+          <li>
+            Prolonged Operation of the plants / Long intervals between Planned
+            Shut downs
+          </li>
+        </ol>
       </div>
     </div>
   );
 }
 
 export default About;
-
-
-
-
-
