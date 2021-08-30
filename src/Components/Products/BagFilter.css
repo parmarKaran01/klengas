@@ -3,7 +3,8 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    align-items: center;
+    align-items: baseline;
+    margin-left: 11%;
 }
 .product__image{
     object-fit: contain;
@@ -16,8 +17,8 @@
 .product__content{
     margin-top: 2vh;
     align-items: baseline;
-    margin-left: 13%;
     margin-right: 13%;
+    margin-left: 2%;
 }
 .products__page{
     display: flex;

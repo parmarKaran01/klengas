@@ -9,7 +9,7 @@ function WaterProcessing() {
       <img src={mainImage} alt="" className="mainImage" />
       <div className="gray">
         <div className="content">
-          <p>CONTENT(PENDING FROM CLIENT)</p>
+          <p>Water Processing industry bifurcates itself into raw water treatment, sewage water treatment, effluent water treatment plants. All of the types of water processing need filtration at various stages. Reverse osmosis protection is a major application for filters in water processing industry. For drinking water, post RO, fine filters in stages are used to purity water before bottling right down upto 1.2 microns in few installations.</p>
         </div>
         <h3 className="application">APPLICATIONS</h3>
         <h6 className="application ong">Water Processing</h6>

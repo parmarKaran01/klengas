@@ -22,12 +22,27 @@
 .checkbox{
     margin-top: 2vh;
 }
-.submit__btn{
-    width: 6vw;
-    height: 5vh;
-    background-color: rgb(170, 169, 169);
-    border-radius: 8px;
+
+@media only screen and (max-width:900px) {
+   .contact{
+       overflow-y: auto;
+       width: 100vw;
+       overflow-x: hidden;
+   }
+   .contactImage{
+    height: 25vh;
+    width: 100vw;
+    object-fit: contain;
 }
-.submit__btn:hover{
-    background-color: lightblue;
+.contact__content{
+    width: 40vh;
+}
+.contact__form{
+    width: 45vh;
+}
+   .form{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+   }
 }

@@ -5,7 +5,7 @@ import YoutubeVideo from "./YoutubeVideo";
 
 function HeroSection() {
   return (
-    <>
+    <div className='main__section'>
       <div className="hero">
         <div className="hero__text">
           <p>
@@ -57,7 +57,7 @@ function HeroSection() {
             className="hero__card"
             img="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlPMJoPOtQ0unTfgMiMJjEQEGFY2ITssffLg&usqp=CAU"
             title="Food and Beverages"
-            content="lorem ipsum"
+            content="Filters play an important role in purification of various food & beverage industry segments like Carbonated Soft drinks, drinking water, edible gums, fruit juices, beer. "
           />
         </div>
         <div className="hero__images">
@@ -65,19 +65,19 @@ function HeroSection() {
             className="hero__card"
             img="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlPMJoPOtQ0unTfgMiMJjEQEGFY2ITssffLg&usqp=CAU"
             title="Chemicals"
-            content="lorem ipsum"
+            content="Chemical industry is a large expanse of variants which need purification at various stages in manufacturing. Not only in the liquids, but also in the gaseous stages for catalyst protection or prevention of poisoning of essentials."
           />
           <HeroCard
             className="hero__card"
             img="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlPMJoPOtQ0unTfgMiMJjEQEGFY2ITssffLg&usqp=CAU"
             title="Water Processing"
-            content="lorem ipsum"
-          />
+            content="Water Processing industry bifurcates itself into raw water treatment, sewage water treatment, effluent water treatment plants. All of the types of water processing need filtration at various stages. Reverse osmosis protection is a major application for filters in water processing industry."
+            />
           <HeroCard
             className="hero__card"
             img="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlPMJoPOtQ0unTfgMiMJjEQEGFY2ITssffLg&usqp=CAU"
             title="Power Generation"
-            content="lorem ipsum"
+            content="Power Generation is done through Thermal, Hydro, Solar, Nuclear resources. In every and all modes of power generation, water is a critical resource.  Water is required to be purified in various forms."
           />
         </div>
       </div>
@@ -95,7 +95,7 @@ function HeroSection() {
           <YoutubeVideo videoId="QAznxTjy0PA" />
         </div>
       </>
-    </>
+    </div>
   );
 }
 

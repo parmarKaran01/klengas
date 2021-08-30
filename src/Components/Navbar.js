@@ -41,10 +41,6 @@ function Navbar() {
               {/* <Menu name = 'Industries' option1="Industries" option2="Oil And Gas" option3="Pharma" option4="Food and Beverages"/> */}
               
               <Menu menuButton={<MenuButton className="menu__button">Industries</MenuButton>}>
- 
-                  <MenuItem> 
-                    <Link to="/industries">Industries</Link>
-                  </MenuItem> 
                   <MenuItem> 
                     <Link to="/oilandgas">Oil and Gas</Link>
                   </MenuItem>

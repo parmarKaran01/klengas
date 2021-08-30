@@ -8,7 +8,7 @@ function Chemicals() {
             <img src={mainImage} alt="" className="mainImage" />
             <div className="gray"></div>
             <div className='content'>
-                CONTENT (PENDING FROM CLIENT)
+                <p>Chemical industry is a large expanse of variants which need purification at various stages in manufacturing. Not only in the liquids, but also in the gaseous stages for catalyst protection or prevention of poisoning of essentials. Filters have to handle extremely corrosive and abrasive liquids while maintaining their integrity and still delivering the performance on consistent basis.</p>
             </div>
             <h3 className="application">APPLICATIONS</h3>
             <h6 className="application ong">Chemicals</h6>

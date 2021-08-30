@@ -33,10 +33,14 @@
 }
 
 @media only screen and (max-width:900px) {
-
+.main__section{
+    overflow-x: hidden;
+    overflow-y: auto;
+}
     .hero__images{
         display: flex;
         flex-direction: column;
+        width: 100vw;
     }
     .hero__card{
         width: 100%;

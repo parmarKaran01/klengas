@@ -8,3 +8,14 @@
     margin-bottom: 1vh;
     width:40vw
 }
+.submit__btn:hover{
+    color: rgb(28, 183, 255);
+}
+@media only screen and (max-width:900px) {
+    .main{
+        width: 100vw;
+    }
+    .checkbox{
+        width: 45vh;
+    }
+}

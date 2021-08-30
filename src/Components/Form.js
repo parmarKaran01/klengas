@@ -56,13 +56,14 @@ function Form() {
         onChange={(e) => setUploadFile(e.target.files)}
       />
       <br />
-
+        <div className='checkbox'>
       <input type="checkbox" style={{ cursor: "pointer" }} />
       <span className="checkbox">
         {" "}
         I accept that the data submitted will be used to contact me for the
         business intended. I understand and agree to the PRIVACY POLICY
       </span>
+      </div>
       <p></p>
       <button className="submit__btn" onSubmit={submitForm}>
         SUBMIT

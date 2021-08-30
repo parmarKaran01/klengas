@@ -17,7 +17,6 @@
 }
 
 
-
 .navbar__leftside .store__logo{
     max-height: 13vh;
     max-width: 16vw;
@@ -91,7 +90,9 @@
     .navbar .navbar__rightside .links{
         display: none;
     }
-
+    .navbar .navbar__rightside{
+        width: auto;
+    }
     .navbar .navbar__rightside .btn{
         display: flex;
         border: none;
