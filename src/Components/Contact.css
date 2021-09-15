@@ -21,6 +21,7 @@
 }
 .checkbox{
     margin-top: 2vh;
+    cursor: pointer;
 }
 
 @media only screen and (max-width:900px) {

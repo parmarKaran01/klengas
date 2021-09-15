@@ -9,7 +9,7 @@ import image4 from './../assets/images/banner4.png';
 const carouselContainer = () => {
   return (
     <Carousel fade={true} pause={false}>
-      <Carousel.Item interval={4000}>
+      {/* <Carousel.Item interval={4000}>
         <img
           className="d-block w-100"
           src={mainImage}
@@ -19,7 +19,7 @@ const carouselContainer = () => {
           <h3>First slide label</h3>
           <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
         </Carousel.Caption>
-      </Carousel.Item>
+      </Carousel.Item> */}
       <Carousel.Item interval={2000}>
         <img
           className="d-block w-100"

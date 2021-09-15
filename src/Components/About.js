@@ -1,5 +1,5 @@
 import React from "react";
-import image from "../assets/images/about.png";
+import image from "../assets/images/AboutUs.PNG";
 import "./About.css";
 // import Card from "./Card";
 function About() {
