@@ -1,6 +1,9 @@
 import React from "react";
 import image from "../../assets/images/logo.png";
 import mainImage from "../../assets/images/oilAndGas.png";
+
+import KGTLargeFlowfilter from "../../assets/Catalogue/02 KGT_Large_flow_Catalogue_R4.pdf"
+import  KGTSMITMANNCartridgefilter from "../../assets/Catalogue/07 KGT_Smitmann_Cartridge_Filter_Catalogue_R0.pdf"
 function LargeDiameterFilter() {
   return (
     <div className="products__page">
@@ -14,7 +17,7 @@ function LargeDiameterFilter() {
         </div>
         <div className="product__catalogue">
           {" "}
-          <a href="https://google.com">Download Catalogue</a>
+          <a href={KGTLargeFlowfilter} target="_blank">Download Catalogue</a>
         </div>
         <h4>About</h4>
         <div className="product__content">
@@ -92,7 +95,7 @@ function LargeDiameterFilter() {
         </div>
         <div className="product__catalogue">
           {" "}
-          <a href="https://google.com">Download Catalogue</a>
+          <a href={KGTSMITMANNCartridgefilter} target="_blank">Download Catalogue</a>
         </div>
         <h4>About</h4>
         <div className="product__content">

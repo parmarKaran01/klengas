@@ -1,3 +1,5 @@
+
+
 .ilogo{
     object-fit: contain;
     height: 10vh;
@@ -27,4 +29,13 @@
 }
 h4{
     margin-left: 2vw;
+}
+
+@media only screen and (max-width :1100px){
+    .clients{
+        
+        height: 100%;
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
 }

@@ -37,13 +37,6 @@ import ZydusLogo from './../assets/Logos/clients/Pharma/ZYDUS_LOGO.jpg'
 
 
 
-
-
-
-
-
-
-
 function Clients() {
     return (
         <>
@@ -110,6 +103,7 @@ function Clients() {
                 </div>
             </div>
         </div>
+
         </>
     )
 }

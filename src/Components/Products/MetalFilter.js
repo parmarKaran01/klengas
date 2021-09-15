@@ -2,6 +2,9 @@ import React from "react";
 import "./BagFilter.css";
 import image from "../../assets/images/logo.png";
 import mainImage from "../../assets/images/oilAndGas.png";
+
+import KGTWireMeshMetalFilter from "../../assets/Catalogue/03 KGT_Metal_Filter_Catalogue_R0.pdf"
+import KGTPowderedSinteredStainlessSteelFilter from "../../assets/Catalogue/04 KGT_Sintered_Powder_Metal_Filter_Catalogue.pdf"
 function MetalFilter() {
   return (
     <div className="products__page">
@@ -15,7 +18,7 @@ function MetalFilter() {
         </div>
         <div className="product__catalogue">
           {" "}
-          <a href="https://google.com">Download Catalogue</a>
+          <a href={KGTWireMeshMetalFilter} target="_blank">Download Catalogue</a>
         </div>
         <h4>About</h4>
         <div className="product__content">
@@ -87,7 +90,7 @@ function MetalFilter() {
         </div>
         <div className="product__catalogue">
           {" "}
-          <a href="https://google.com">Download Catalogue</a>
+          <a href={KGTPowderedSinteredStainlessSteelFilter} target="_blank">Download Catalogue</a>
         </div>
         <h4>About</h4>
         <div className="product__content">

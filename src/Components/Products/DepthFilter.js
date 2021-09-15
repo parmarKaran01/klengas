@@ -2,6 +2,10 @@ import React from "react";
 import "./BagFilter.css";
 import image from "../../assets/images/logo.png";
 import mainImage from "../../assets/images/oilAndGas.png";
+
+
+import  KGTPolypromaxCartridgefilter from "../../assets/Catalogue/06 KGT_Polypromax_Pleated_Cartridge_Filter_Catalogue_R0.pdf"
+import  KGTPolyproCartridgefilter from "../../assets/Catalogue/05 KGT_Polypro_Pleated_Cartridge_Filter_Catalogue_R0.pdf"
 function DepthFilter() {
   return (
     <div className="products__page">
@@ -15,7 +19,7 @@ function DepthFilter() {
         </div>
         <div className="product__catalogue">
           {" "}
-          <a href="https://google.com">Download Catalogue</a>
+          <a href={KGTPolypromaxCartridgefilter} target="_blank">Download Catalogue</a>
         </div>
         <h4>About</h4>
         <div className="product__content">
@@ -94,7 +98,7 @@ function DepthFilter() {
         </div>
         <div className="product__catalogue">
           {" "}
-          <a href="https://google.com">Download Catalogue</a>
+          <a href={KGTPolyproCartridgefilter} target="_blank">Download Catalogue</a>
         </div>
         <h4>About</h4>
         <div className="product__content">

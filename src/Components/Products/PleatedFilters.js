@@ -2,20 +2,26 @@ import React from "react";
 import "./BagFilter.css";
 import image from "../../assets/images/logo.png";
 import mainImage from "../../assets/images/oilAndGas.png";
+import image1 from "./ProductImages/Pleated_Cartridge_Filter1.PNG"
+import image2 from "./ProductImages/Pleated_Cartridge_Filter2.PNG"
+import image3 from "./ProductImages/Pleated_Cartridge_Filter3.PNG"
+
+import  KGTPolypromaxCartridgefilter from "../../assets/Catalogue/06 KGT_Polypromax_Pleated_Cartridge_Filter_Catalogue_R0.pdf"
+import  KGTPolyproCartridgefilter from "../../assets/Catalogue/05 KGT_Polypro_Pleated_Cartridge_Filter_Catalogue_R0.pdf"
 function PleatedFilters() {
   return (
     <div className="products__page">
       <img src={mainImage} alt="" className="mainImage" />
       <div className="product__details">
         <div className="image__section">
-          <img src={image} alt="" className="product__image" />
-          <img src={image} alt="" className="product__image" />
-          <img src={image} alt="" className="product__image" />
-          <img src={image} alt="" className="product__image" />
+          <img src={image1} alt="" className="product__image" />
+          <img src={image2} alt="" className="product__image" />
+          <img src={image3} alt="" className="product__image" />
+          {/* <img src={image} alt="" className="product__image" /> */}
         </div>
         <div className="product__catalogue">
           {" "}
-          <a href="https://google.com">Download Catalogue</a>
+          <a href={KGTPolypromaxCartridgefilter} target="_blank">Download Catalogue</a>
         </div>
         <h4>About</h4>
         <div className="product__content">
@@ -94,7 +100,7 @@ function PleatedFilters() {
         </div>
         <div className="product__catalogue">
           {" "}
-          <a href="https://google.com">Download Catalogue</a>
+          <a href={KGTPolyproCartridgefilter} target="_blank">Download Catalogue</a>
         </div>
         <h4>About</h4>
         <div className="product__content">

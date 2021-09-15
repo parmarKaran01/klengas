@@ -2,6 +2,8 @@ import React from "react";
 import "./BagFilter.css";
 import image from "../../assets/images/logo.png";
 import mainImage from "../../assets/images/oilAndGas.png";
+
+import KGTBagfilter from "../../assets/Catalogue/01 KGT_Bag_Filter_Catalogue_R1.pdf"
 function BagFilter() {
   return (
     <div className="products__page">
@@ -15,7 +17,7 @@ function BagFilter() {
         </div>
         <div className="product__catalogue">
           {" "}
-          <a href="https://google.com">Download Catalogue</a>
+          <a href={KGTBagfilter} target="_blank">Download Catalogue</a>
         </div>
         <h4>About</h4>
         <div className="product__content">
