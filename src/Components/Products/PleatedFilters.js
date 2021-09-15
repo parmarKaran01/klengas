@@ -17,7 +17,7 @@ function PleatedFilters() {
           <img src={image1} alt="" className="product__image" />
           <img src={image2} alt="" className="product__image" />
           <img src={image3} alt="" className="product__image" />
-          {/* <img src={image} alt="" className="product__image" /> */}
+          <img src={image} alt="" className="product__image" />
         </div>
         <div className="product__catalogue">
           {" "}
