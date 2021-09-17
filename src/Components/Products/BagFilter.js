@@ -2,6 +2,10 @@ import React from "react";
 import "./BagFilter.css";
 import image from "../../assets/images/logo.png";
 import mainImage from "../../assets/images/oilAndGas.png";
+import image1 from "../../assets/Product images/bag filter/Bag filter.jpg"
+import image2 from "../../assets/Product images/bag filter/Bag_Filter_1.png"
+import image3 from "../../assets/Product images/bag filter/Bag_Filter_2.png"
+import image4 from "../../assets/Product images/bag filter/Bag_Filter_3.png"
 
 import KGTBagfilter from "../../assets/Catalogue/01 KGT_Bag_Filter_Catalogue_R1.pdf"
 function BagFilter() {
@@ -10,10 +14,10 @@ function BagFilter() {
       <img src={mainImage} alt="" className="mainImage" />
       <div className="product__details">
         <div className="image__section">
-          <img src={image} alt="" className="product__image" />
-          <img src={image} alt="" className="product__image" />
-          <img src={image} alt="" className="product__image" />
-          <img src={image} alt="" className="product__image" />
+          <img src={image1} alt="" className="product__image" />
+          <img src={image2} alt="" className="product__image" />
+          <img src={image3} alt="" className="product__image" />
+          <img src={image4} alt="" className="product__image" />
         </div>
         <div className="product__catalogue">
           {" "}
